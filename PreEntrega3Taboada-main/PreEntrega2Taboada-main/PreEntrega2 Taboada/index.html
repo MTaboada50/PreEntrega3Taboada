@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Mauricio Taboada">
+    <meta name="description" content="segunda preentrega coder">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, React, JavaScript, SEO, UX, UI">
+    <!-- Titulo -->
+    <title>Home | Mauricio Taboada</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="/assets/logoipsum-297.svg" alt="logo de la web">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>        
+        <div class="collapse navbar-collapse d-flex justify-content-end align-content-center" id="navbar-collapse">
+          <ul class="navbar-nav d-flex justify-content-center align-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero ">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-start">
+        <h1>Hola, Soy Mauricio Taboada</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae culpa accusantium numquam impedit provident quae? Hic earum totam aspernatur sed tempora reprehenderit. Aliquam corrupti cupiditate quasi incidunt laboriosam distinctio?</h2>
+        <button type="button" class="btn btn-primary"><a class="text-white" href="/pages/contacto.html">Contacto</a></button>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="servicios seccion-clara"> 
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web  -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-code-slash"></i>
+            <p class="servicios-titulo">Desarrollo Web</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem sunt eum inventore aspernatur quaerat. Corporis, reiciendis culpa accusantium </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">ReactJs</span>
+            </div>
+          </div>          
+          <!-- UI/UX -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-code-slash"></i>
+            <p class="servicios-titulo">UX / UI</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem sunt eum inventore aspernatur quaerat. Corporis, reiciendis culpa accusantium </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">User Research</span>
+              <span class="badge text-bg-primary">Arquitectura de informacion</span>
+              <span class="badge text-bg-primary">Wireframes / Mockups</span>
+            </div>
+          </div> 
+          <!-- SEO -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-code-slash"></i>
+            <p class="servicios-titulo">SEO</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem sunt eum inventore aspernatur quaerat. Corporis, reiciendis culpa accusantium </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Keyword Research</span>
+              <span class="badge text-bg-primary">Auditorias</span>
+              <span class="badge text-bg-primary">SEO Tecnico</span>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="sobre-mi seccion-oscura d-flex flex-md-row justify-content-evenly">
+      <div class="contenedor">
+        <img src="https://placehold.co/600x400" alt="">
+      </div>
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre Mi</h2>
+        <p class="seccion-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quia itaque nihil obcaecati laboriosam, assumenda deserunt delectus debitis! Blanditiis ex quas temporibus autem possimus animi sapiente quibusdam ipsa. Quasi, possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ratione incidunt facere iste.</p>
+        <button type="button" class="btn btn-primary"><a class="text-white" href="/pages/contacto.html">Contacto</a></button>
+      </div>
+    </section>
+
+    <!-- Proyectos-->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Portfolio</h2>
+      <h3 class="secion-descripcion">Estos son algunos de mis ultimos proyectos...</h3>
+      <!-- Galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://placehold.co/600x400" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <a href="pages/portfolio.html">
+        <button type="button" class="btn btn-primary">Ver mas</button>
+      </a>
+    </section>
+
+    <!-- Contacto -->
+     <section class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-6 seccion-titulo">
+              ¿Tenes algun proyecto en mente?
+            </div>
+            <div class="col-12 col-md-6">
+              <a class="text-white" href="/pages/contacto.html"></a>
+                <button type="button" class="btn btn-primary">¡Hablemos!</button>
+              </a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="row">
+            <h2>Mauricio Taboada</h2>
+            <ul class="list-inline d-flex justify-content-evenly align-content-center">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    <!--no borrar, js de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html> 
